@@ -1,11 +1,11 @@
 {
   "name": "nedb",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "author": {
-    "name": "Louis Chatriot",
-    "email": "louis.chatriot@gmail.com"
+    "name": "Matthew Sudol"
   },
   "contributors": [
+    "Matthew Sudol",
     "Louis Chatriot"
   ],
   "description": "File-based embedded data store for node.js",
@@ -14,25 +14,26 @@
     "datastore",
     "embedded"
   ],
-  "homepage": "https://github.com/louischatriot/nedb",
+  "homepage": "https://github.com/msudol/nedb",
   "repository": {
     "type": "git",
-    "url": "git@github.com:louischatriot/nedb.git"
+    "url": "git@github.com:msudol/nedb.git"
   },
   "dependencies": {
     "async": "0.2.10",
     "binary-search-tree": "0.2.5",
     "localforage": "^1.3.0",
     "mkdirp": "~0.5.1",
-    "underscore": "~1.4.4"
+    "nedb": "file:",
+    "underscore": "^1.13.7"
   },
   "devDependencies": {
     "chai": "^3.2.0",
+    "commander": "1.1.1",
+    "exec-time": "0.0.2",
     "mocha": "1.4.x",
     "request": "2.9.x",
-    "sinon": "1.3.x",
-    "exec-time": "0.0.2",
-    "commander": "1.1.1"
+    "sinon": "1.3.x"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000"
