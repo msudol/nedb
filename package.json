@@ -28,7 +28,7 @@
     "underscore": "^1.13.7"
   },
   "devDependencies": {
-    "chai": "^5.1.1",
+    "chai": "^3.5.0",
     "commander": "1.1.1",
     "exec-time": "0.0.2",
     "mocha": "^10.7.3",
